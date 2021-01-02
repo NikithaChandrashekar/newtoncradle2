@@ -79,12 +79,12 @@ function draw() {
  
 }
 
-function keyPressed(){
+function mouseDragged(){
 
-if (keyCode===UP_ARROW){
+
 	
 	Matter.Body.setPosition(bob1.body,{x:mouseX,y:mouseY});
-}
+
 
 }
 	
