@@ -22,7 +22,7 @@ class Chain{
         var pointY=this.chain.bodyB.position; //roof position
         
         
-        strokeWeight(5);
+        strokeWeight(3);
         fill("black");
        
          var attactPointX= pointY.x+ this.offsetX; //add displacements to the roof position
