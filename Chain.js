@@ -6,8 +6,8 @@ class Chain{
         var options = {
             bodyA: body1,
             bodyB:body2,
-           // stiffness: 0.04,
-           // length: 10,
+           
+           
             pointB:{x:this.offsetX,y:this.offsetY}
     
         }
