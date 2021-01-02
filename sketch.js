@@ -79,5 +79,15 @@ function draw() {
  
 }
 
+function keyPressed(){
+
+if (keyCode===UP_ARROW){
+	
+	Matter.Body.setPosition(bob1.body,{x:mouseX,y:mouseY});
+}
+
+}
+	
+
 
 
